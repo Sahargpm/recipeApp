@@ -25,6 +25,7 @@ const animationWrapper=style({
 });
 
 const base = style({
+
   fontFamily: BaseTheme.typography.fonts.standard,
   transition: "transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease", 
    
@@ -56,11 +57,13 @@ const themeWrapper={
 const headingTextStyle = {
   mainHeading: style([
     base, {
+      textAlign:"center",
       fontSize: BaseTheme.typography.sizes.heading.standard,
     }
   ]),
   subHeading: style([
     base, {
+      textAlign:"center",
       fontSize: BaseTheme.typography.sizes.heading.small,
     }
   ]),
@@ -69,11 +72,13 @@ const headingTextStyle = {
 const cardViewTextStyle = {
   large: style([
     base, {
+      textAlign:"center",
       fontSize: BaseTheme.typography.sizes.card.standard,
     }
   ]),
   small: style([
     base, {
+      textAlign:"center",
       fontSize: BaseTheme.typography.sizes.card.small,
     }
   ]),
@@ -81,6 +86,7 @@ const cardViewTextStyle = {
 
 const buttonTextStyle = style([
   base, {
+    textAlign:"center",
     fontSize: BaseTheme.typography.sizes.button.standard,
     '@media':{
       [BreakPoints.xxs.css]:{
@@ -94,12 +100,14 @@ const buttonTextStyle = style([
 const tagContainerTextStyle = {
   blog: style([
     base, {
+      textAlign:"center",
       color: BaseTheme.color.secondary(),
       fontSize: BaseTheme.typography.sizes.TagContainer.standard,
     }
   ]),
   content: style([
     base, {
+      textAlign:"center",
       fontSize: BaseTheme.typography.sizes.TagContainer.small,
     }
   ]),
@@ -114,6 +122,7 @@ const paragrahTextStyle = style([
 
 const copRightTextStyle = style([
   base, {
+    textAlign:"center",
     fontSize: BaseTheme.typography.sizes.paragrah.standard,
     color:BaseTheme.color.textSecondary(),
   }
