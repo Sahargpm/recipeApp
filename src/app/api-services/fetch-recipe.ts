@@ -3,7 +3,7 @@ import Instructions from '../models/instructions/instruction';
 import Tags from '../models/tag/tag';
 import { Ingredient } from '../models/ingredient/ingredient';
 
-const endpoint = 'https://upbeat-surprise-c14a529e81.strapiapp.com/graphql';
+const endpoint = 'https://trusty-cuddle-a00cc9b6ad.strapiapp.com/graphql';
 
 const query = `
 query ($name: String!, $limit: Int, $start: Int ,$ingredientLimit: Int){

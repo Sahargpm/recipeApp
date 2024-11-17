@@ -16,7 +16,7 @@ interface GraphQLResponse {
   errors?: any;
 }
 
-const endpoint = 'https://upbeat-surprise-c14a529e81.strapiapp.com/graphql';
+const endpoint = 'https://trusty-cuddle-a00cc9b6ad.strapiapp.com/graphql';
 
 const query = `
 query($limit: Int, $start: Int) {
