@@ -1,6 +1,6 @@
 import Article from "../models/article/article";
 
-const endpoint = 'https://trusty-cuddle-a00cc9b6ad.strapiapp.com/graphql';
+const endpoint = 'https://holy-talent-82761239dc.strapiapp.com/graphql';
 
 const query = `
   query {
